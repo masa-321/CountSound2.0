@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220A32AA22B15A1E004DCE90 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A32A922B15A1E004DCE90 /* GraphViewController.swift */; };
 		2227E8EB2273616C002AD06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2227E8EA2273616C002AD06D /* AppDelegate.swift */; };
 		2227E8ED2273616C002AD06D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2227E8EC2273616C002AD06D /* ViewController.swift */; };
 		2227E8F02273616C002AD06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2227E8EE2273616C002AD06D /* Main.storyboard */; };
 		2227E8F22273616D002AD06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2227E8F12273616D002AD06D /* Assets.xcassets */; };
 		2227E8F52273616D002AD06D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2227E8F32273616D002AD06D /* LaunchScreen.storyboard */; };
+		2227E8FD22739825002AD06D /* se_maoudamashii_system46.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2227E8FC22739825002AD06D /* se_maoudamashii_system46.mp3 */; };
+		22A91B8B229E9F4800DEB713 /* se_maoudamashii_onepoint23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22A91B8A229E9F4700DEB713 /* se_maoudamashii_onepoint23.mp3 */; };
+		F4F570ABDF712C2CA1FF9244 /* Pods_Swift5CountUpSound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC516BDC9ACC0A07F833366D /* Pods_Swift5CountUpSound.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220A32A922B15A1E004DCE90 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		2227E8E72273616C002AD06D /* Swift5CountUpSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5CountUpSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2227E8EA2273616C002AD06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2227E8EC2273616C002AD06D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		2227E8F12273616D002AD06D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2227E8F42273616D002AD06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2227E8F62273616D002AD06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2227E8FC22739825002AD06D /* se_maoudamashii_system46.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se_maoudamashii_system46.mp3; sourceTree = "<group>"; };
+		22A91B8A229E9F4700DEB713 /* se_maoudamashii_onepoint23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = se_maoudamashii_onepoint23.mp3; path = ../../../../../../../Downloads/se_maoudamashii_onepoint23.mp3; sourceTree = "<group>"; };
+		CD042A957F3FBB2D2D7FF969 /* Pods-Swift5CountUpSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5CountUpSound.release.xcconfig"; path = "Target Support Files/Pods-Swift5CountUpSound/Pods-Swift5CountUpSound.release.xcconfig"; sourceTree = "<group>"; };
+		DC516BDC9ACC0A07F833366D /* Pods_Swift5CountUpSound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5CountUpSound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F071F1C6BEB90152B5F51931 /* Pods-Swift5CountUpSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5CountUpSound.debug.xcconfig"; path = "Target Support Files/Pods-Swift5CountUpSound/Pods-Swift5CountUpSound.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F570ABDF712C2CA1FF9244 /* Pods_Swift5CountUpSound.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0446C985958201684BA2B4C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F071F1C6BEB90152B5F51931 /* Pods-Swift5CountUpSound.debug.xcconfig */,
+				CD042A957F3FBB2D2D7FF969 /* Pods-Swift5CountUpSound.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2227E8DE2273616C002AD06D = {
 			isa = PBXGroup;
 			children = (
 				2227E8E92273616C002AD06D /* Swift5CountUpSound */,
 				2227E8E82273616C002AD06D /* Products */,
+				0446C985958201684BA2B4C2 /* Pods */,
+				E8828771AE8A868A1E4E261F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +78,23 @@
 			children = (
 				2227E8EA2273616C002AD06D /* AppDelegate.swift */,
 				2227E8EC2273616C002AD06D /* ViewController.swift */,
+				2227E8FC22739825002AD06D /* se_maoudamashii_system46.mp3 */,
+				22A91B8A229E9F4700DEB713 /* se_maoudamashii_onepoint23.mp3 */,
 				2227E8EE2273616C002AD06D /* Main.storyboard */,
+				220A32A922B15A1E004DCE90 /* GraphViewController.swift */,
 				2227E8F12273616D002AD06D /* Assets.xcassets */,
 				2227E8F32273616D002AD06D /* LaunchScreen.storyboard */,
 				2227E8F62273616D002AD06D /* Info.plist */,
 			);
 			path = Swift5CountUpSound;
+			sourceTree = "<group>";
+		};
+		E8828771AE8A868A1E4E261F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC516BDC9ACC0A07F833366D /* Pods_Swift5CountUpSound.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2227E8F92273616D002AD06D /* Build configuration list for PBXNativeTarget "Swift5CountUpSound" */;
 			buildPhases = (
+				3DBEBAB93324D2D3B694E971 /* [CP] Check Pods Manifest.lock */,
 				2227E8E32273616C002AD06D /* Sources */,
 				2227E8E42273616C002AD06D /* Frameworks */,
 				2227E8E52273616C002AD06D /* Resources */,
+				12F8294621190831A7B49C83 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +131,7 @@
 				TargetAttributes = {
 					2227E8E62273616C002AD06D = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -123,18 +159,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				2227E8F52273616D002AD06D /* LaunchScreen.storyboard in Resources */,
+				2227E8FD22739825002AD06D /* se_maoudamashii_system46.mp3 in Resources */,
 				2227E8F22273616D002AD06D /* Assets.xcassets in Resources */,
 				2227E8F02273616C002AD06D /* Main.storyboard in Resources */,
+				22A91B8B229E9F4800DEB713 /* se_maoudamashii_onepoint23.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12F8294621190831A7B49C83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5CountUpSound/Pods-Swift5CountUpSound-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Graph/Graph.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Graph.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5CountUpSound/Pods-Swift5CountUpSound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DBEBAB93324D2D3B694E971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5CountUpSound-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2227E8E32273616C002AD06D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220A32AA22B15A1E004DCE90 /* GraphViewController.swift in Sources */,
 				2227E8ED2273616C002AD06D /* ViewController.swift in Sources */,
 				2227E8EB2273616C002AD06D /* AppDelegate.swift in Sources */,
 			);
@@ -280,9 +368,11 @@
 		};
 		2227E8FA2273616D002AD06D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F071F1C6BEB90152B5F51931 /* Pods-Swift5CountUpSound.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 728MNT2Y45;
 				INFOPLIST_FILE = Swift5CountUpSound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,16 +380,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanjirou.Swift5CountUpSound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2227E8FB2273616D002AD06D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD042A957F3FBB2D2D7FF969 /* Pods-Swift5CountUpSound.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 728MNT2Y45;
 				INFOPLIST_FILE = Swift5CountUpSound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,7 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanjirou.Swift5CountUpSound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
